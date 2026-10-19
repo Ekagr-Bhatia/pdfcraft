@@ -282,7 +282,7 @@ mod tests {
     }
 
     #[test]
-    fn supported_platform_middle_click_activates_autoscroll() {
+    fn latch_path_activates_on_middle_click() {
         let ctx = Context::default();
         let mut scroll = AutoScroll::default();
         let p = egui::pos2(100.0, 100.0);
