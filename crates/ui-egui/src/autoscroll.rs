@@ -275,6 +275,7 @@ mod tests {
         // This input-only test has no renderer to apply the generated font texture.
         output.textures_delta.clear();
     }
+
     #[cfg(target_os = "windows")]
     #[test]
     fn windows_enables_middle_click_autoscroll() {
